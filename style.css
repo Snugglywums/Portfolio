@@ -1,4 +1,4 @@
-
+/*This is for the About Me Section*/
  .AboutMe  {
 
     position: relative;
@@ -15,7 +15,7 @@
     color: #f0f0f0;
     
 }
-
+/*This is for the h properties*/
 h1 {
     text-align: center;
     font-size: 40px;
@@ -32,13 +32,14 @@ h3 {
     font-size: 30px;
 }
 
+/*This is for the paragraph and list properties*/
 p, li {
     font-size: 25px;
     font-family: 'Dancing Script', 'Goudy Old Style', cursive;
     margin:0;
     padding:0;
 }
-
+/*This is for the raven image at the bottom*/
 body { 
     background-color: #dde3eb;
     background-image: url('/Pictures/Raven-Transparent-logo.png');
@@ -47,7 +48,7 @@ body {
     background-position: bottom right; 
   }
 
-
+/*This is for the info paragraph*/
 #MeInfo {
     margin-left: 20px;
     text-align: left;
@@ -56,6 +57,7 @@ body {
 
 }
 
+/*This is for the footer*/
 footer {
     position: fixed;
     left: 43%;
