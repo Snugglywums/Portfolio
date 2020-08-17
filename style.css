@@ -1,8 +1,8 @@
 /*This is for the About Me Section*/
  .AboutMe  {
-
+    height: 100%;
     position: relative;
-    padding-left:60px;
+    padding-left:10px;
     padding-bottom: 30px;
     padding-top: 5px;
     margin-top: 100px;
@@ -39,6 +39,7 @@ p, li {
     margin:0;
     padding:0;
 }
+
 /*This is for the raven image at the bottom*/
 body { 
     background-color: #dde3eb;
@@ -47,22 +48,13 @@ body {
     background-attachment: fixed;
     background-position: bottom right; 
   }
-
 /*This is for the info paragraph*/
 #MeInfo {
     margin-left: 20px;
     text-align: left;
     font-size: 20px;
 
-
 }
-
-/*This is for the footer*/
-footer {
-    position: fixed;
-    left: 43%;
-}
-
 
 .container {
     display: flex;
@@ -80,4 +72,16 @@ footer {
     content: "";
     display: table;
     clear: both;
+  }
+/*these are for the links*/
+  a:link {
+      color: #0f0c0c
+  }
+
+  a:visited {
+      color: #19d1ff;
+  }
+
+  a:hover {
+      font-size: 30px;
   }
