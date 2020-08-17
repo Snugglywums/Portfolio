@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="en">
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
@@ -20,17 +22,18 @@
 <main> 
  
 <!--This is the Div for the About Me Section-->  
-<div class="AboutMe">
+<article class="AboutMe">
     <h1> About Me</h1>
+    <hr>
       <div class="container">
           
        <!-- This is the Div Container for my Picture-->
           <div id="ProfilePic">
-              <img src="Pictures/Raven-Profile.JPG" height="475" width="280"> 
+              <img src="Pictures/Raven-Profile.JPG" height="475" width="280" alt="Profile Pic of Myself"> 
           </div>
          
        <!-- This is the Div Container for my Info -->   
-              <div id="Meinfo">
+              <section id="Meinfo">
             <h2>Raven McGuffin</h2> 
                <p>I am a Web Developer and Software Engineer located in Texas. </p>
                <p>My passion is technology and working with others. </p>
@@ -45,12 +48,14 @@
                 <li>SQL</li>
               </ul>
               
+              <h2>Achievements</h2>
+                <ol><li>Dean's List Penn State</li></ol>
               
-              </div>       
+            </section>       
 
       </div>
  
-</div>
+    </article>
 
 </main>
 
@@ -61,14 +66,16 @@
           <!---Div for Links with Logos-->
         <div class="row">
           <div class="column">
-            <p>LinkedIn</p>
-            <a href="www.linkedin.com/in/raven-mcguffin-6a379077">
-               <img src="/Pictures/Symbol-linkedin.jpg" width="75"/> </a>
+            <p><a href="https://www.linkedin.com/in/raven-mcguffin-6a379077/">
+            LinkedIn</a></p>
+            <a href="https://www.linkedin.com/in/raven-mcguffin-6a379077/">
+               <img src="/Pictures/Symbol-linkedin.jpg" width="75" alt="LinkedIn Logo BW"/> </a>
           </div>
           <div class="column">
-          <p>GitHub</p>    
+            <p><a href="https://github.com/Snugglywums">
+          GitHub</a></p>    
           <a href="https://github.com/Snugglywums">
-            <img src="Pictures/GitHub-Logo.png" width="75"/>
+            <img src="Pictures/GitHub-Logo.png" width="75" alt="GitHub Logo"/>
           </a>
           </div>
         </div>
